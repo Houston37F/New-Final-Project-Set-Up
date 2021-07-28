@@ -1,7 +1,11 @@
 $(document).ready(function() {
-  console.log("ready!");
+	console.log("ready!");
   
-  console.log(devProfile);
+	console.log(devProfile);
+  
+	$.each(devProfile, function(key,valueObk){
+		alert(key + "/" + valueObj );
+	});
 });
 
 
@@ -16,5 +20,5 @@ const devProfile = {"Web_Dev_Profile": {"My_Web_Dev": {
 	"Experience":["For the past 3 years I've been working overseas for the DoD creating databases for tracking facility maintenance and inspection forms and documentation. I don't have much experience in website developement at the moment, but hopefully this class will fix that haha." ],
 	"Interests": ["I enjoy playing video games, hiking outdoors, and fishing."],
 	"Side Projects": ["With my current employment schedule I don't really have time for any side projects. haha"]
-	}]}
+	}}
 };
