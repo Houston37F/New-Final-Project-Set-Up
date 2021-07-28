@@ -2,8 +2,8 @@ $(document).ready(function() {
   console.log("ready!");
   
   console.log(devProfile);
+  });
 });
-
 const devProfile = {"Web_Dev_Profile": {"My_Web_Dev": [{
 	"name": ["Houston",	"Passarella"],
 	"GitHubUsername": ["Houston37F"],
